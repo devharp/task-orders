@@ -1,0 +1,28 @@
+* {
+  padding: 0; box-sizing: border-box; margin: 0;
+}
+html, body, #root {
+  min-height: 100%; width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+.p-dropdown-panel li {
+  font-size: 2rem;
+}
+
+.app-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  background-color: black;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.app-button:hover {
+  background-color: rgb(20,20,20);
+}
